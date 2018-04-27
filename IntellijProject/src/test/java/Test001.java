@@ -24,7 +24,7 @@ public class Test001 {
         WebElement Usernametextbox = driver.findElement(By.id("Email"));
 
         Usernametextbox.clear();
-        Usernametextbox.sendKeys("sudevna2@gmail.com");
+        Usernametextbox.sendKeys("gmailid@gmail.com");
 
         //3. Click Next
         WebElement eleNext = driver.findElement(By.id("next"));
@@ -34,7 +34,7 @@ public class Test001 {
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Passwd")));
         WebElement PasswordTextBox = driver.findElement(By.id("Passwd"));
-        PasswordTextBox.sendKeys("Nicename123#");
+        PasswordTextBox.sendKeys("GmailPassword");
         //5. Click SignIn
         WebElement eleSignIn = driver.findElement(By.id("signIn"));
         eleSignIn.click();
@@ -69,7 +69,7 @@ public class Test001 {
             WebElement Usernametextbox= driver.findElement(By.id("Email"));
 
             Usernametextbox.clear();
-            Usernametextbox.sendKeys("sudevna2@gmail.com");
+            Usernametextbox.sendKeys("gmailid@gmail.com");
 
             //3. Click Next
             WebElement eleNext=driver.findElement(By.id("next"));
@@ -79,7 +79,7 @@ public class Test001 {
             WebDriverWait wait=new WebDriverWait(driver,30);
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Passwd")));
             WebElement PasswordTextBox= driver.findElement(By.id("Passwd"));
-            PasswordTextBox.sendKeys("Nicename123#");
+            PasswordTextBox.sendKeys("GmailPassword");
             //5. Click SignIn
             WebElement eleSignIn= driver.findElement(By.id("signIn"));
             eleSignIn.click();
@@ -115,7 +115,7 @@ public class Test001 {
             WebElement Usernametextbox= driver.findElement(By.id("Email"));
 
             Usernametextbox.clear();
-            Usernametextbox.sendKeys("sudevna2@gmail.com");
+            Usernametextbox.sendKeys("Gmailid@gmail.com");
 
             //3. Click Next
             WebElement eleNext=driver.findElement(By.id("next"));
@@ -125,7 +125,7 @@ public class Test001 {
             WebDriverWait wait=new WebDriverWait(driver,30);
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Passwd")));
             WebElement PasswordTextBox= driver.findElement(By.id("Passwd"));
-            PasswordTextBox.sendKeys("Nicename123#");
+            PasswordTextBox.sendKeys("GmailPassword");
             //5. Click SignIn
             WebElement eleSignIn= driver.findElement(By.id("signIn"));
             eleSignIn.click();
@@ -142,7 +142,7 @@ public class Test001 {
             wait1.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("textarea[name='to']")));
             WebElement toTextArea = driver.findElement(By.cssSelector("textarea[name='to']"));
             toTextArea.clear();
-            toTextArea.sendKeys("sudevna2@gmail.com");
+            toTextArea.sendKeys("Gmailid@gmail.com");
             //4.Fill in subject
             wait1.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[name='subjectbox']")));
             WebElement subjectTextArea = driver.findElement(By.cssSelector("input[name='subjectbox']"));
