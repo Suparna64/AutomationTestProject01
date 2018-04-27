@@ -23,7 +23,7 @@ public class SendAndReceiveEmailTest {
             SignInPage SignInPage= WebUtil.goToSignInPage(driver);
 
             //2. Fill in username
-            SignInPage.fillInUsername(driver,"sudevna2@gmail.com");
+            SignInPage.fillInUsername(driver,"Gmail@gmail.com");
 
 
             //3. Click Next
@@ -31,7 +31,7 @@ public class SendAndReceiveEmailTest {
 
             //4. Fill in the password
             //could not locate password element--hence use wait command
-            SignInPage.fillInPassword(driver, "Nicename123#");
+            SignInPage.fillInPassword(driver, "GmailPassword");
 
             //5. Click SignIn
             EmailHomePage emailHomePage=SignInPage.clickSignIn(driver);
@@ -61,7 +61,7 @@ public class SendAndReceiveEmailTest {
             SignInPage SignInPage= WebUtil.goToSignInPage(driver);
 
             //2. Fill in username
-            SignInPage.fillInUsername(driver,"sudevna2@gmail.com");
+            SignInPage.fillInUsername(driver,"GmailID@gmail.com");
 
 
             //3. Click Next
@@ -69,7 +69,7 @@ public class SendAndReceiveEmailTest {
 
             //4. Fill in the password
             //could not locate password element--hence use wait command
-            SignInPage.fillInPassword(driver, "Nicename123#");
+            SignInPage.fillInPassword(driver, "GmailPasswrd");
 
             //5. Click SignIn
             EmailHomePage emailHomePage=SignInPage.clickSignIn(driver);
@@ -79,7 +79,7 @@ public class SendAndReceiveEmailTest {
             emailHomePage.clickComposeButton(driver);
 
                 //3.Fill in Recipient
-            emailHomePage.fillInReceipient(driver,"sudevna2@gmail.com");
+            emailHomePage.fillInReceipient(driver,"GmailID@gmail.com");
 
                 //4.Fill in subject
             final String subject="Email Test-Gmail";
